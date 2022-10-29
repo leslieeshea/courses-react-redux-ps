@@ -21,7 +21,6 @@ class CoursesPage extends React.Component {
 				alert("Loading authors failed" + error);
 			});
 		}
-
 	}
 
 	render() {
