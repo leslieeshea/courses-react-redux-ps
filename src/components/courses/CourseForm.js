@@ -48,7 +48,7 @@ const CourseForm = ({ course, authors, onSave, onChange, saving = false, errors 
 	);
 };
 
-CourseForm.PropTypes = {
+CourseForm.propTypes = {
 	authors: PropTypes.array.isRequired,
 	course: PropTypes.object.isRequired,
 	errors: PropTypes.object,
